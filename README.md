@@ -1,6 +1,6 @@
 #BikeSharing360
 
-During our Connect(); event this year we presented 15 demos in Scott Guthrie’s and Scott Hanselman’s keynotes. If you missed the keynotes, you can watch the recording in [Channel 9](https://channel9.msdn.com/Events/Connect/2016/Keynotes-Scott-Guthrie-and-Scott-Hanselman).
+During our Visual Studio 2017 Launch event this year, Scott Hanselman presented our Dockder Tooling experiences. 
 
 This year, we built the technology stack for a fictional company named BikeSharing360, which allows users to rent bikes from one location to another.
 
@@ -17,7 +17,7 @@ In this demo scenario, we built several apps for both the enterprise and the con
 * [Azure Bot App](https://github.com/Microsoft/BikeSharing360_BotApps)
 
 # Bikesharing360 Single Container App
-In this repo you will find the Single Container demo from Connect() 2016 where Donovan Brown opened an existing project and published it to Azure App service, running Linux Docker containers.
+In this repo you will find the Single Container demo where Scott opened an existing project, added docker support and published it to Azure App service, running Linux Docker containers.
 
 ## Demo Prerequisites
 The Single Container demo encompasses taking an existing ASP.NET Core Web App and deploying it to Azure App Services for Linux, using container deployments. To run this demo you'll need:
@@ -39,17 +39,16 @@ To run this demo, you'll need an Azure account. You can:
 ## Demo Steps
 
 ### Open and run the project within a container, making live changes
-1. Clone and open this repo locally using Visual Studio 2017
-2. Right Click the project and choose **Add** -> **Docker Project Support**
+1. Clone the before docker branch and open this repo locally using Visual Studio 2017
+2. Right Click the project and choose **Add** -> **Docker Support**
 3. F5 - or click the |> Start Debugging, with Docker as the target
 4. Open Views\Home\Index.cshtml
 5. Add some text, such as "Come see what we've got" to the end of "...throughout New York City and Seattle." 
 6. Save Index.cshtml
 7. Refresh the page in the browser
+8. Voila, you've now run a .NET Core app in a Linux container and made a change without having to rebuild or re-run the container image.
 
 ### Publish to Azure App Services 
-
-**Note:** *For Visual Studio 2017 RC, the Azure Container Registry and Azure App Service MUST be int he same region.*
 
 1.	Right Click on the project and choose **Publish**
 2.	Create a new profile
@@ -58,11 +57,11 @@ To run this demo, you'll need an Azure account. You can:
 5.	Create a new Resource Group
 6.	Name the resource group Marketing_WestUS
 7.	Create a new App Service Plan
-8.	Set the Location to **West US**. *This is an important step for RC*
+8.	Set the Location to **West US**. 
 9.	*Optionally choose S2 for faster deployments*
 10.	 Create a new Azure Container Registry
 11.	 Set a DNS Prefix
-12.	 Set the Location to **West US**. *This is an important step for RC*
+12.	 Set the Location to **West US**. 
 13.	 Click [Create]. This will take a bit of time as the new resource group, registry and Azure App Services are created
 14.	 Click [Publish]
 15.	 VS will now build the project, push the image the Azure Container Registry and configure Azure App Service to pull the image. Once complete, the browser will launch with your container running in Azure App Service 
