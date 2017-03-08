@@ -7,7 +7,7 @@ using System.Collections;
 using System.Runtime.InteropServices;
 using System.Text;
 
-namespace Marketing.Controllers
+namespace Bikesharing.Campaign.Controllers
 {
     public class HomeController : Controller
     {

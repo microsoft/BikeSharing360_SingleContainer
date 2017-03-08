@@ -6,7 +6,7 @@ using Microsoft.AspNetCore.Mvc.ViewFeatures;
 using Microsoft.AspNetCore.Razor.TagHelpers;
 using System.Text.Encodings.Web;
 
-namespace BikeSharing.Campaign.TagHelpers
+namespace Bikesharing.Campaign.TagHelpers
 {
     [HtmlTargetElement("picturex")]
     public class PictureTagHelper : TagHelper
