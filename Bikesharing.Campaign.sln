@@ -5,6 +5,8 @@ VisualStudioVersion = 15.0.26220.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Bikesharing.Campaign", "Bikesharing.Campaign\Bikesharing.Campaign.csproj", "{90A70719-B722-42D9-AD2D-1EF0E20A7FB7}"
 EndProject
+Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "_docker-compose", "_docker-compose.dcproj", "{AACC1C44-1161-4484-A17F-3CED9E6B41D9}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,18 @@ Global
 		{90A70719-B722-42D9-AD2D-1EF0E20A7FB7}.Release|x64.Build.0 = Release|Any CPU
 		{90A70719-B722-42D9-AD2D-1EF0E20A7FB7}.Release|x86.ActiveCfg = Release|Any CPU
 		{90A70719-B722-42D9-AD2D-1EF0E20A7FB7}.Release|x86.Build.0 = Release|Any CPU
+		{AACC1C44-1161-4484-A17F-3CED9E6B41D9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AACC1C44-1161-4484-A17F-3CED9E6B41D9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AACC1C44-1161-4484-A17F-3CED9E6B41D9}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{AACC1C44-1161-4484-A17F-3CED9E6B41D9}.Debug|x64.Build.0 = Debug|Any CPU
+		{AACC1C44-1161-4484-A17F-3CED9E6B41D9}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{AACC1C44-1161-4484-A17F-3CED9E6B41D9}.Debug|x86.Build.0 = Debug|Any CPU
+		{AACC1C44-1161-4484-A17F-3CED9E6B41D9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AACC1C44-1161-4484-A17F-3CED9E6B41D9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AACC1C44-1161-4484-A17F-3CED9E6B41D9}.Release|x64.ActiveCfg = Release|Any CPU
+		{AACC1C44-1161-4484-A17F-3CED9E6B41D9}.Release|x64.Build.0 = Release|Any CPU
+		{AACC1C44-1161-4484-A17F-3CED9E6B41D9}.Release|x86.ActiveCfg = Release|Any CPU
+		{AACC1C44-1161-4484-A17F-3CED9E6B41D9}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

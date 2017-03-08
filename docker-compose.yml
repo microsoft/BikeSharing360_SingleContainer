@@ -1,0 +1,8 @@
+version: '2'
+
+services:
+  bikesharing.campaign:
+    image: bikesharing.campaign
+    build:
+      context: ./Bikesharing.Campaign
+      dockerfile: Dockerfile
