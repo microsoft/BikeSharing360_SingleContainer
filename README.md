@@ -1,6 +1,6 @@
 #BikeSharing360
 
-During our Visual Studio 2017 Launch event this year, Scott Hanselman presented our Dockder Tooling experiences. 
+During our Visual Studio 2017 Launch event this year, Scott Hanselman presented our Docker Tooling experiences. 
 
 This year, we built the technology stack for a fictional company named BikeSharing360, which allows users to rent bikes from one location to another.
 
